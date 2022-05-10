@@ -12,7 +12,6 @@ body {
   color: var(--sc--color--grey);
 }
 .hero-heading h1 {
-  width: 540px;
   font-size: 48px;
   color: var(--pr-color--black);
 }
@@ -40,12 +39,8 @@ body {
 .ft-link {
   color: var(--pr-color--black);
 }
-@media (max-width: 576px) {
-  .container {
-    padding: 0px 16px;
-  }
+@media only screen and (max-width: 576px) {
   .hero-heading h1 {
-    width: 468px;
     font-size: 40px;
   }
   .hero-caption p {
@@ -53,9 +48,11 @@ body {
     font-size: 18px;
   }
 }
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .hero-heading h1 {
-    width: 304px;
     font-size: 24px;
+  }
+  .hero-caption p {
+    font-size: 16px;
   }
 }
