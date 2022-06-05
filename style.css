@@ -45,7 +45,12 @@ body a:hover {
 .is--title-card {
   margin-top: 16px;
   color: var(--pr-color--black);
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+p.is--title-card :hover {
+  color: aqua;
 }
 .ft-link {
   color: var(--pr-color--black);
