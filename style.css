@@ -1,17 +1,27 @@
 :root {
   --pr-color--black: #0f172a;
+  --pr--colot-black-hover: #5e5e5e;
   --sc--color--grey: #64748b;
   --bg--color--white: #fdfdfd;
 }
-
+/*body*/
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--bg--color--white);
 }
+body a {
+  text-decoration: none;
+  color: var(--pr-color--black);
+}
+body a:hover {
+  color: var(--pr--colot-black-hover);
+}
+/*Hero*/
 .caption {
   color: var(--sc--color--grey);
 }
 .hero-heading h1 {
+  max-width: 540px;
   font-size: 48px;
   color: var(--pr-color--black);
 }
@@ -22,6 +32,7 @@ body {
 .scroll-down-btn {
   color: var(--pr-color--black);
 }
+/*navigation bar*/
 .navbar {
   height: 100px;
 }
@@ -38,6 +49,61 @@ body {
 }
 .ft-link {
   color: var(--pr-color--black);
+}
+/*detail*/
+.article {
+  margin: 100px 0px 100px 0px;
+  max-width: 768px;
+}
+.heading-title {
+  font-size: 48px;
+}
+.rw-article {
+  margin-top: 80px;
+}
+.title-article {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.body-article {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+}
+.block-info {
+  margin-top: 4px;
+}
+.title-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.container.footer {
+  max-width: 768px;
+  padding: 32px 0px 32px 0px;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+.title-nexts-project {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.subtitle-nexts-project {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.subtitle-nexts-project :hover {
+  padding-left: 16px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
 @media only screen and (max-width: 576px) {
   .hero-heading h1 {
