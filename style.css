@@ -52,6 +52,7 @@ body a:hover {
 p.is--title-card :hover {
   color: aqua;
 }
+/*footer*/
 .ft-link {
   color: var(--pr-color--black);
 }
@@ -112,7 +113,7 @@ p.is--title-card :hover {
 }
 @media only screen and (max-width: 576px) {
   .hero-heading h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
   .hero-caption p {
     width: 250px;
